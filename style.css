@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+    background-image: url("dollar.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 10px;
+    border-color:black;
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: large;
+
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+     padding: 10px;
+    font-size: 16px;
+    background-color: rgb(154, 223, 50);
+
+
+}
+
+
+
